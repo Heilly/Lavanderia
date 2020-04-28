@@ -15,6 +15,7 @@ public class Lavanderia {
     protected String namEstacion;
     protected ArrayList<Lavadora> lavadoras = new ArrayList<>();
     Lavadora l;
+    String Heilly;
     
     
     public Lavanderia(int idLavanderia, String namEstacion){
@@ -41,6 +42,9 @@ public class Lavanderia {
         return lavadoras.size();
     }
     
+    public void Prueba(){
+        String Locodelamatadecoco;
+    }
 
     
     
