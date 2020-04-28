@@ -32,7 +32,7 @@ public class Lavanderia {
         for (int i = 0; i < lavadoras.size(); i++) {
             if (lavadoras.get(i).getIdlavadora() == idlavadora) {
                 lavadoras.remove(i);
-                System.out.println("Se elimino: " + lavadoras.get(i).getIdlavadora() );
+                System.out.println("Se ha eliminado la lavadora: " + lavadoras.get(i).getIdlavadora() );
             }
         }
     }
