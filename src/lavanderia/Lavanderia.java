@@ -15,7 +15,6 @@ public class Lavanderia {
     protected String namEstacion;
     protected ArrayList<Lavadora> lavadoras = new ArrayList<>();
     Lavadora l;
-    int polla;
     
     
     public Lavanderia(int idLavanderia, String namEstacion){
