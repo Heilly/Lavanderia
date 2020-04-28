@@ -45,6 +45,10 @@ public class Lavanderia {
     public void Prueba(){
         String Locodelamatadecoco;
     }
+    
+    public void Prueba(){
+        String Locodelamatadecoco;
+    }
 
     
     
