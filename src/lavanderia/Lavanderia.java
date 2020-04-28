@@ -13,7 +13,7 @@ public class Lavanderia {
 
     protected int idlavanderia;
     protected String namEstacion;
-    protected ArrayList<Lavadora> lava = new ArrayList<>();
+    protected ArrayList<Lavadora> lavadoras = new ArrayList<>();
     Lavadora l;
     
     
@@ -25,21 +25,21 @@ public class Lavanderia {
     
     public void AnadirLavadora(int idlavadora){
         l = new Lavadora(idlavadora);
-        lava.add(l);
+        lavadoras.add(l);
     }
     
     public void EliminarLavadora(int idlavadora){
         l = new Lavadora(idlavadora);
-        for (int i = 0; i < lava.size(); i++) {
-            if (lava.get(i).getIdlavadora() == idlavadora) {
-                lava.remove(i);
-                System.out.println("Se elimino: " + lava.get(i).getIdlavadora() );
+        for (int i = 0; i < lavadoras.size(); i++) {
+            if (lavadoras.get(i).getIdlavadora() == idlavadora) {
+                lavadoras.remove(i);
+                System.out.println("Se elimino: " + lavadoras.get(i).getIdlavadora() );
             }
         }
     }
     
     public int CantidadLavadora(){
-        return lava.size();
+        return lavadoras.size();
     }
     
 
