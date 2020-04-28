@@ -10,12 +10,12 @@ import java.util.ArrayList;
  * @author heill
  */
 public class Lavanderia {
-
+  
     protected int idlavanderia;
     protected String namEstacion;
     protected ArrayList<Lavadora> lavadoras = new ArrayList<>();
     Lavadora l;
-    
+    int polla;
     
     
     public Lavanderia(int idLavanderia, String namEstacion){
